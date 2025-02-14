@@ -15,16 +15,6 @@ $(document).ready(function () {
   });
   // *Navbar Ends
 
-  // *Counter Up Starts
-  $(".counter").counterUp({
-    delay: 10,
-    time: 2000,
-  });
-  // *Counter Up Ends
-
-//   *Aos Lib
-AOS.init();
-//   *Aos Lib
 
 });
 
