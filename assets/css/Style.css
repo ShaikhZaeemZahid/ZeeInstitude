@@ -1,0 +1,36 @@
+
+
+.ShowSideNav{
+    animation: ShowSideNav 1s ease forwards;
+}
+@keyframes ShowSideNav{
+    0%{
+        top: -12rem;
+
+    }
+    100%{
+        top: 3rem;
+
+    }
+}
+
+
+.HideSideNav{
+    animation: HideSideNav 1s ease forwards;
+}
+@keyframes HideSideNav{
+    0%{
+        top: 3rem;
+
+    }
+    100%{
+        top: -12rem;
+
+    }
+}
+.HeroSection {
+    background-image: url(../images/HeroSection.jpg);
+    background-size: 100% 100%;
+    background-position: center; 
+    background-attachment: fixed; 
+}

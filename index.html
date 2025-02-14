@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/output.css">
+    <link rel="stylesheet" href="assets/css/Style.css">
+</head>
+<body>
+<!-- *Navbar Start -->
+    <header>
+        <nav class="fixed top-0 z-50 flex items-center justify-between w-full px-5 py-4 bg-thirdColor/40 backdrop-blur-md md:justify-around">
+            <h1 class="text-3xl text-primaryColor font-mainFontFamily" >Zee Institude</h1>
+            <ul class="items-center hidden md:flex">
+                <li class="mx-4 text-darkColor hover:text-mutedColor"><a href="#Home">Home</a></li>
+                <li class="mx-4 text-darkColor hover:text-mutedColor"><a href="#AboutUS">About</a></li>
+                <li class="mx-4 text-darkColor hover:text-mutedColor"><a href="#ContactUs">Contact</a></li>
+                <li class="mx-4 text-darkColor hover:text-mutedColor"><a href="#Courses">Courses</a></li>
+            </ul>
+            <ul class="flex md:hidden">
+                <li class="text-2xl text-thirdColor menuSideNav">
+                    <ion-icon name="menu" ></ion-icon>
+                </li>
+                <li class="hidden text-2xl text-thirdColor closeSideNav">
+                    <ion-icon name="close" ></ion-icon>
+                </li>
+            </ul>
+        </nav>
+        <nav class="fixed top-[-12rem] z-50  SideNav bg-black md:hidden px-5 py-2 flex justify-center w-full  items-center">
+            <ul class="">
+                <li class="mx-4 my-4 text-thirdColor hover:text-mutedColor"><a href="#Home">Home</a></li>
+                <li class="mx-4 my-4 text-thirdColor hover:text-mutedColor"><a href="#AboutUS">About</a></li>
+                <li class="mx-4 my-4 text-thirdColor hover:text-mutedColor"><a href="#ContactUs">Contact</a></li>
+                <li class="mx-4 my-4 text-thirdColor hover:text-mutedColor"><a href="#Courses">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- *Navbar End -->
+
+<!-- https://themewagon.github.io/Mentor/courses.html -->
+<!-- npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch  -->
+<!-- *Hero Section Start -->
+<div class="HeroSection max-h-fit min-h-[100vh] " id="Home">
+
+   <div class="flex items-center justify-center w-full h-[120vh]  ">
+    <div class="lg:min-h-[100vh] mt-16 lg:max-h-fit p-4 md:w-2/3 w-full" >
+        <h4 class="text-5xl font-headingFont">Welcome To,</h1>
+            <h2 class="mt-8 text-8xl font-mainFontFamily">Zee Institude</h2>
+            <p class="w-full mb-8 font-thin md:w-2/3 font-paragraphFont">Welcome to Zee Institude! 🚀 Your go-to place for mastering technology and creativity. We offer training in essential computer skills and professional tools like Microsoft Office, graphic design, web design, and app development. </p>
+            <p class="w-full mb-8 font-thin md:w-2/3 font-paragraphFont">Unlock your potential with courses in computer accounting, audio and video editing, 3D Max, Maya, and digital marketing. Whether you want to improve your typing speed or master advanced Excel, our expert-led classes will equip you for success in today’s digital world.</p>
+            <p class="w-full mb-8 font-thin md:w-2/3 font-paragraphFont">Join us and turn your passion into a rewarding career!</p>
+            <div class="">
+                <a href="#Courses" class="px-4 py-2 duration-300 border hover:bg-darkColor hover:text-thirdColor border-darkColor ">Get Started</a>
+                <a href="#AboutUS" class="px-4 py-2 duration-300 border hover:bg-transparent bg-darkColor hover:text-darkColor text-thirdColor border-darkColor">Learn More</a>
+            </div>
+   </div>
+
+    </div>
+
+</div>
+<!-- *Hero Section End -->
+
+<!-- *CounterUp Section Start -->
+ <div class="min-h-[40vh]  flex justify-around items-center flex-wrap max-h-fit">
+
+    <div class="m-5 w-60 group"  data-aos="fade-up" data-aos-offset="300" data-aos-duration="700">
+        <p class="mb-2 text-center text-7xl counter group-hover:text-fourthColor font-headingFont text-darkColor">1200</p>
+        <p class="text-2xl text-center text-darkColor group-hover:text-fourthColor font-headingFont">Students</p>
+    </div>
+    <div class="m-5 w-60 group"  data-aos="fade-up" data-aos-offset="300" data-aos-duration="1400">
+        <p class="mb-2 text-center text-7xl counter group-hover:text-fourthColor font-headingFont text-darkColor">500</p>
+        <p class="text-2xl text-center text-darkColor group-hover:text-fourthColor font-headingFont">Courses</p>
+    </div>
+    <div class="m-5 w-60 group"  data-aos="fade-up" data-aos-offset="300" data-aos-duration="2100">
+        <p class="mb-2 text-center text-7xl counter group-hover:text-fourthColor font-headingFont text-darkColor">150</p>
+        <p class="text-2xl text-center text-darkColor group-hover:text-fourthColor font-headingFont">Teachers</p>
+    </div>
+    <div class="m-5 w-60 group"  data-aos="fade-up" data-aos-offset="300" data-aos-duration="2800">
+        <p class="mb-2 text-center text-7xl counter group-hover:text-fourthColor font-headingFont text-darkColor">200</p>
+        <p class="text-2xl text-center text-darkColor group-hover:text-fourthColor font-headingFont">Events</p>
+    </div>
+
+ </div>
+<!-- *CounterUp Section End -->
+
+<!-- *About US Section Starts -->
+<div class="flex flex-wrap justify-center items-center max-h-fit min-h-[90vh] " id="AboutUS">
+
+    <div class="lg:w-1/2 min-h-[70vh] max-h-fit  w-full px-10  py-5" data-aos="fade-up" data-aos-offset="300" data-aos-duration="500">
+        <h1 class="text-5xl font-headingFont">Our Mission</h1>
+        <p class="mt-4 font-paragraphFont">At Zee Institude, our mission is to empower individuals with practical and professional computer-related skills that open doors to limitless opportunities. We strive to foster creativity, innovation, and hands-on learning to prepare students for success in a tech-driven world.</p>
+
+        <ul>
+            <li class="my-3">
+                <div class="flex items-center"><ion-icon class="mr-4 text-4xl font-bold text-primaryColor" name="checkmark-circle-outline"></ion-icon><span class="font-paragraphFont ">Provide industry-relevant training in technology, design, and marketing to ensure our students stay ahead in their careers.</span></div>
+            </li>
+            <li class="my-3">
+                <div class="flex items-center"><ion-icon class="mr-4 text-4xl font-bold text-primaryColor" name="checkmark-circle-outline"></ion-icon><span class="font-paragraphFont ">Encourage students to think creatively, embrace challenges, and develop skills that drive personal and professional growth.</span></div>
+            </li>
+            <li class="my-3">
+                <div class="flex items-center"><ion-icon class="mr-4 text-4xl font-bold text-primaryColor" name="checkmark-circle-outline"></ion-icon><span class="font-paragraphFont ">Foster a supportive learning environment where students can collaborate, network, and become future-ready professionals.</span></div>
+            </li>
+        </ul>
+
+    </div>
+    <div class="lg:w-1/2 h-[70vh]  w-full flex justify-center ">
+        <img src="assets/images/AboutUS.jpg" alt="" class="w-5/6 h-full">
+    </div>
+
+
+ </div>
+ <!-- *About US Section Ends -->
+
+
+<!-- *Why Choose US Section Starts -->
+<div class="flex flex-wrap items-center justify-center min-h-[50vh] max-h-fit ">
+    <div class="h-[50vh] bg-gradient-to-tl from-[#1e3a8a] m-3 to-[#1d4ed8] w-[400px] py-2 px-4   " data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+        <h3 class="my-5 text-3xl text-thirdColor font-headingFont">Why Choose Us ?</h3>
+        <p class="text-thirdColor font-paragraphFont">At Zee Institude, we offer a transformative learning experience that helps students succeed in today’s digital world. Our expert instructors and hands-on training provide the skills you need to advance your career. Here’s what sets us apart:</p>
+        <div class="my-4"><a href="" class="px-4 py-2 font-bold duration-300 border hover:bg-thirdColor hover:text-darkColor border-thirdColor text-thirdColor ">Learn More</a></div>
+    </div>
+    <div class="h-[50vh]  w-[250px] p-4  m-3 border-2 border-primaryColor hover:border-secondaryColor hover:bg-secondaryColor hover:text-thirdColor " data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500">
+        <div class="text-5xl text-center text-primaryColor">
+            <ion-icon name="book-outline"></ion-icon>
+        </div>
+        <h2 class="my-3 text-2xl text-center font-headingFont">Comprehensive Learning</h2>
+        <p class="font-paragraphFont">We offer a well-structured curriculum that balances theory and practical application to ensure a deep understanding.</p>
+    </div>
+    <div class="h-[50vh]  w-[250px] p-4  m-3 border-2 border-primaryColor hover:border-secondaryColor  hover:bg-secondaryColor hover:text-thirdColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="2000">
+        <div class="text-5xl text-center text-primaryColor"><ion-icon name="ribbon-outline"></ion-icon></ion-icon></div>
+        <h2 class="my-3 text-2xl text-center font-headingFont">Career-Oriented Approach</h2>
+        <p class="font-paragraphFont">Our programs are designed to help you excel in your career, with a focus on in-demand skills and trends.</p>
+    </div>
+    <div class="h-[50vh]  w-[250px] p-4  m-3 border-2 border-primaryColor hover:border-secondaryColor hover:bg-secondaryColor hover:text-thirdColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="2500">
+        <div class="text-5xl text-center text-primaryColor"><ion-icon name="people-outline"></ion-icon></div>
+        <h2 class="my-3 text-2xl text-center font-headingFont">Expert Instructors</h2>
+        <p class="font-paragraphFont">Our trainers are industry professionals with extensive experience, dedicated to providing quality education.</p>
+        
+    </div>
+</div>
+<!-- *Why Choose US Section Ends -->
+
+
+<!-- *Contact Us Section Starts -->
+<div class="min-h-[90vh] max-h-fit" id="ContactUs">
+   
+
+    <div class="mt-8 min-h-[90vh] max-h-fit flex-wrap flex justify-center items-center">
+    <div class="max-h-fit min-h-[80vh] px-6  w-[550px]" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500">
+        <h1 class="text-6xl text-center font-headingFont">Contact Us</h1>
+        <p class="my-8 font-paragraphFont">We’d love to hear from you! If you have questions about our courses or how Zee Institude can help you reach your goals, please get in touch. Our team is here to assist you with all the information you need to start your learning journey.</p>
+        <div class="flex items-center my-4 group ">
+            <div class="flex items-center justify-center p-4 mx-4 text-2xl border rounded-full group-hover:bg-darkColor group-hover:text-thirdColor border-darkColor"><ion-icon name="home"></ion-icon></div>
+            <div class="">
+                <h1 class="text-2xl font-headingFont">address</h1>
+                <p class="font-paragraphFont">Shop 26/29 near bagh-e-halar hospital garden west, Karachi</p>
+            </div>
+        </div>
+        <div class="flex items-center my-4 group ">
+            <div class="flex items-center justify-center p-4 mx-4 text-2xl border rounded-full group-hover:bg-darkColor group-hover:text-thirdColor border-darkColor"><ion-icon name="mail"></ion-icon></div>
+            <div class="">
+                <h1 class="text-2xl font-headingFont">Email</h1>
+                <p class="font-paragraphFont">educationinncenter@gmail.com</p>
+            </div>
+        </div>
+        <div class="flex items-center my-4 group ">
+            <div class="flex items-center justify-center p-4 mx-4 text-2xl border rounded-full group-hover:bg-darkColor group-hover:text-thirdColor border-darkColor"><ion-icon name="call"></ion-icon></div>
+            <div class="">
+                <h1 class="text-2xl font-headingFont">Number</h1>
+                <p class="font-paragraphFont">+92 3111228591</p>
+            </div>
+        </div>
+    </div>
+    <div class="h-[80vh]  w-[500px]   py-7">
+        <form action="https://formspree.io/f/movvproe"
+        method="POST" class="flex flex-col items-center justify-center" >
+            <h1 class="text-3xl text-center font-headingFont">Send Message</h1>
+            <input type="text" placeholder="Name*"  name="Username" class="bg-transparent border border-darkColor w-[70%] rounded-sm mt-6 py-2 px-4 ">
+            <input type="text" placeholder="Email*" name="UserEmail"  class="bg-transparent border border-darkColor w-[70%] rounded-sm mt-6 py-2 px-4 ">
+       <textarea name="UserMessage"  class="bg-transparent  border border-darkColor w-[70%] rounded-sm mt-6 py-2 px-4 " placeholder="Message*" rows="5" id=""></textarea>
+       <button type="Submit" class="flex items-center justify-center px-4 py-2 mt-4 border border-darkColor w-[70%] hover:bg-darkColor hover:text-thirdColor duration-300">Send&nbsp;<ion-icon name="paper-plane"></ion-icon></button>
+        </form>
+    </div>
+    
+    </div>
+    
+</div>
+    
+    
+
+    <!-- *Contact Us Section Ends -->
+     
+<!-- *Popular Courses Section Starts -->
+ <div class=" max-h-fit" id="Courses">
+    <div class="px-8 my-8">
+        <div class="flex items-center">
+            <span class="text-2xl font-headingFont text-primaryColor">courses</span>&nbsp;<p class="border border-primaryColor w-28"></p>
+        </div>
+        <h1 class="py-2 text-6xl font-headingFont">What We Offer</h1>
+
+    </div>
+    <div class=" min-h-[90vh] flex-wrap  flex justify-center  max-h-fit">
+
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/WebDesigning.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Design & Creativity</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Web Design</h3>
+            <p class="my-2 font-paragraphFont">Web design combines art and technique to create engaging, user-friendly websites. By merging creativity with technical skills, it enhances your online presence and captivates your audience.</p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/MicrosoftOffice.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Software & Tools Mastery</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Microsoft Office</h3>
+            <p class="my-2 font-paragraphFont">Master the essential Microsoft Office suite, including Word, Excel, PowerPoint, and Outlook. This course will help you become proficient in creating documents, analyzing data, presenting information, and managing communication in any professional setting.
+
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/GraphicsDesigning.jpeg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Design & Creativity</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Graphic Designing</h3>
+            <p class="my-2 font-paragraphFont">Learn the art of visual communication with our Graphic Designing course. Explore tools like Adobe Photoshop and Illustrator to create eye-catching designs, logos, marketing materials, and more. Perfect for those looking to dive into the world of digital art and branding.
+
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/AppDevelopment.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Development & Technology</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">App Development</h3>
+            <p class="my-2 font-paragraphFont">Dive into the world of mobile app creation with our App Development course. Learn how to build functional, user-friendly apps for Android and iOS, using industry-standard tools and frameworks. Perfect for aspiring developers looking to bring their ideas to life.
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/ComputerAccounting.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Business & Accounting</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Computer Accounting</h3>
+            <p class="my-2 font-paragraphFont">Gain practical skills in accounting with the help of computer software like QuickBooks and Tally. This course covers the fundamentals of financial management, bookkeeping, and reporting, preparing you for a career in business and accounting.
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/AudioEditing.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Design & Creativity</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Audio Editing</h3>
+            <p class="my-2 font-paragraphFont">Learn the art of audio editing and enhance your ability to create professional-quality soundtracks, podcasts, and sound effects. With tools like Audacity and Adobe Audition, you’ll gain the technical skills needed to work with audio in a variety of media projects.
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/VedioEditting.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Design & Creativity</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Video Editing</h3>
+            <p class="my-2 font-paragraphFont">Take your video editing skills to the next level with hands-on training in software like Adobe Premiere Pro and Final Cut Pro. Learn to craft stunning videos, from cutting footage to adding effects, soundtracks, and titles. Ideal for aspiring filmmakers, content creators, and marketers.
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/3dMax.png" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Software & Tools Mastery</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">3D Max</h3>
+            <p class="my-2 font-paragraphFont">Master the world of 3D modeling, animation, and rendering with our 3D Max course. Learn how to create realistic 3D models, environments, and animations for various industries, including gaming, film, and architecture.
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/Maya.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Software & Tools Mastery</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Maya</h3>
+            <p class="my-2 font-paragraphFont">Explore the world of 3D design and animation with Autodesk Maya. This course covers everything from character modeling to visual effects, helping you become proficient in creating complex 3D visuals for film, gaming, and advertising.
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/DigitalMarketing.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Development & Technology</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Digital Marketing</h3>
+            <p class="my-2 font-paragraphFont">Unlock the secrets of online marketing with our Digital Marketing course. Learn how to drive traffic, engage audiences, and convert leads through platforms like social media, search engines, and email. Ideal for anyone looking to enter the fast-paced world of online business.
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/Typing.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Typing & Productivity</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Typing</h3>
+            <p class="my-2 font-paragraphFont">Improve your typing speed and accuracy with this hands-on typing course. Whether you're a beginner or looking to refine your skills, we’ll help you become a faster and more efficient typist, essential for any professional setting.
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-[300px] p-2 mx-3 my-2 border  flex justify-between flex-col items-center min-h-fit border-darkColor" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">
+            <img src="assets/images/Excel.jpg" alt="" class="h-[30vh] w-full">
+            <span class="mt-3 font-bold text-primaryColor">#Software & Tools Mastery</span>
+            <h3 class="my-2 text-3xl font-semibold font-headingFont">Advanced Excel</h3>
+            <p class="my-2 font-paragraphFont">Take your Excel skills to the next level with our Advanced Excel course. Learn complex functions, formulas, data analysis techniques, and automation tools to enhance your productivity and data management capabilities.
+            </p>
+            <div class="flex items-center justify-end">
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="heart"></ion-icon>&nbsp;
+                    <span>269</span>
+                </div>
+                <div class="flex items-center mx-4 mt-3 text-2xl font-headingFont">
+                    <ion-icon class="" name="person"></ion-icon>&nbsp;
+                    <span>108</span>
+                </div>
+            </div>
+        </div>
+   
+       
+
+    </div>
+ </div>
+ 
+<!-- *Popular Courses Section Ends -->
+
+
+
+
+<!-- *Social Icons Section Strats -->
+ 
+<div class="max-h-fit min-h-[60vh] flex justify-center items-center ">
+
+    <div class="min-h-[30vh] p-5 max-h-fit bg-secondaryColor text-thirdColor w-full">
+        <h1 class="text-4xl text-center font-headingFont" data-aos="fade-up" data-aos-offset="300" data-aos-duration="500">Connect With Us</h1>
+
+        <div class="flex flex-wrap items-center justify-center max-h-fit min-h-[20vh]" data-aos="fade-up" data-aos-offset="300" data-aos-duration="500">
+            <a href="https://www.facebook.com/EducationInn.Center" 
+            class="flex items-center justify-center p-4 m-5 text-4xl duration-300 border rounded-full hover:bg-thirdColor hover:text-primaryColor w-fit border-thirdColor">
+             <ion-icon name="logo-facebook"></ion-icon>
+         </a>
+            <button
+            id="copyEmailButton"
+            class="flex items-center justify-center p-4 m-5 text-4xl duration-300 border rounded-full hover:bg-thirdColor hover:text-primaryColor w-fit border-thirdColor"
+          >
+            <ion-icon name="mail-outline"></ion-icon>
+          </button>
+            <a href="https://www.youtube.com/@EducationInnCenter" class="flex items-center justify-center p-4 m-5 text-4xl duration-300 border rounded-full hover:bg-thirdColor hover:text-primaryColor w-fit border-thirdColor"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href="https://wa.me/923111228591" class="flex items-center justify-center p-4 m-5 text-4xl duration-300 border rounded-full hover:bg-thirdColor hover:text-primaryColor w-fit border-thirdColor"><ion-icon name="logo-whatsapp"></ion-icon></a>
+
+        </div>
+
+    </div>
+    
+
+    
+</div>
+
+<!-- *Social Icons Section Ends -->
+
+
+
+<!-- *Footer Section Starts -->
+ <div class="min-h-[50vh] max-h-fit bg-thirdColor flex justify-center items-center flex-wrap text-darkColor">
+    <div class="h-[50vh]  p-4 w-[350px]">
+        <h1 class="mb-4 text-4xl font-mainFontFamily">Zee Institude</h1>
+        <p class="font-paragraphFont">"Empowering individuals with essential computer skills and professional training to excel in the digital world."</p>
+    </div>
+    <div class="h-[50vh] w-[250px]  p-4">
+        <h1 class="text-4xl font-headingFont">Ouick Links</h1>
+        <ul>
+            <li class="my-5"><a href="#Home" class="text-[1.2rem] hover:text-mutedColor font-paragraphFont">Home</a></li>
+            <li class="my-5"><a href="#AboutUs" class="text-[1.2rem] hover:text-mutedColor font-paragraphFont">AboutUS</a></li>
+            <li class="my-5"><a href="#ContactUs" class="text-[1.2rem] hover:text-mutedColor font-paragraphFont">ContactUs</a></li>
+            <li class="my-5"><a href="#Courses" class="text-[1.2rem] hover:text-mutedColor font-paragraphFont">Courses</a></li>
+        </ul>
+    </div>
+    <div class="h-[50vh] w-[250px]  p-4">
+        <h1 class="text-4xl font-headingFont">Courses</h1>
+        <ul>
+            <li class="my-5 text-[1.2rem] hover:text-mutedColor font-paragraphFont">Web Development</li>
+            <li class="my-5 text-[1.2rem] hover:text-mutedColor font-paragraphFont">Marketing</li>
+            <li class="my-5 text-[1.2rem] hover:text-mutedColor font-paragraphFont">Trading</li>
+            <li class="my-5 text-[1.2rem] hover:text-mutedColor font-paragraphFont">Basic</li>
+        </ul>
+    </div>
+    <div class="h-[50vh] w-[250px]  p-4">
+        <h1 class="text-4xl font-headingFont">News Letter</h1>
+        <p class="my-4 font-paragraphFont">Always Stay Updated</p>
+        <input type="text" placeholder="Subscribe..." class="w-full px-4 py-2 bg-transparent border rounded-sm outline-none border-secondaryColor placeholder:text-primaryColor">
+        <button class="px-4 py-2 mt-5 font-bold duration-300 border text-secondaryColor border-secondaryColor hover:bg-primaryColor hover:text-thirdColor">Submit</button>
+    </div>
+
+
+ </div>
+<!-- *Footer Section Ends -->
+ 
+
+    <script src="assets/js/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
